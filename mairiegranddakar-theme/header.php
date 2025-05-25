@@ -101,14 +101,68 @@
 						</div>
 
 						<div class="navbar-collapse collapse clearfix " id="navbarSupportedContent">
-							<?php
-							wp_nav_menu(array(
-								'theme_location' => 'primary',
-								'menu_class' => 'navigation clearfix',
-								'container' => false,
-								'fallback_cb' => false,
-							));
-							?>
+							<ul class="navigation clearfix ">
+								<li class="current dropdown"><a onclick="location.href='https://mairiegranddakar.com/';" style="cursor:pointer;">Accueil</a>
+									<ul>
+										<li><a href="https://mairiegranddakar.com/mairie/mot_du_maire">Mot du maire</a></li>
+										<li>
+											<a href="https://mairiegranddakar.com/mairie/organisation_administrative">Organisation administrative</a>
+										</li>
+										<li><a href="https://mairiegranddakar.com/mairie/nos_services">Nos services</a></li>
+										<li><a href="https://mairiegranddakar.com/mairie/stage_et_recrutement">Stages et recrutements</a></li>
+										<li><a href="https://mairiegranddakar.com/mairie/contact">Contact</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#">Conseil Municipal</a>
+									<ul>
+										<li><a href="https://mairiegranddakar.com/conseil_municipal/les_elus">Les élus</a></li>
+										<li><a href="https://mairiegranddakar.com/conseil_municipal/le_bureau_municipal">Le bureau municipal</a></li>
+                    <li><a href="https://mairiegranddakar.com/conseil_municipal/commissions">Les commissions</a></li>
+										<li><a href="https://mairiegranddakar.com/conseil_municipal/les_deliberations">Les délibérations</a></li>
+                    <li><a href="https://mairiegranddakar.com/conseil_municipal/les_arretes">Les arrêtés</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#">Partenariat et Projet</a>
+									<ul>
+										<li><a href="https://mairiegranddakar.com/partenariat_et_projet/le_bureau_de_developpement_local">Le bureau de développement local BDL</a></li>
+										<li><a href="https://mairiegranddakar.com/partenariat_et_projet/les_projets">Les projets</a></li>
+										<li><a href="https://mairiegranddakar.com/partenariat_et_projet/les_partenaires">Les partenaires</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#">Economie</a>
+									<ul>
+										<li><a href="https://mairiegranddakar.com/economie/commerce">Commerce</a></li>
+										<li><a href="https://mairiegranddakar.com/economie/artisanat">Artisanat</a></li>
+										<li><a href="https://mairiegranddakar.com/economie/microfinance">Microfinance</a></li>
+										<li><a href="https://mairiegranddakar.com/partenariat_et_projet/projet/economie/projet-en-cours">Projets en cours</a></li>
+                    <li><a href="https://mairiegranddakar.com/economie/autres_activites_economiques">Autres activités économiques</a></li>
+									</ul>
+								</li>
+                  <li class="dropdown"><a href="#">Social et Culture</a>
+									<ul>
+										<li><a href="https://mairiegranddakar.com/social_et_culture/sante">Santé</a></li>
+										<li><a href="https://mairiegranddakar.com/social_et_culture/education">Education</a></li>
+										<li><a href="https://mairiegranddakar.com/social_et_culture/jeunesse_et_sport">Jeunesse et sport</a></li>
+										<li><a href="https://mairiegranddakar.com/social_et_culture/promotion_de_la_femme">Promotion de la femme</a></li>
+										<li><a href="https://mairiegranddakar.com/social_et_culture/culture">Culture</a></li>
+                    <li><a href="https://mairiegranddakar.com/partenariat_et_projet/projet/social-culture/projet-en-cours">Projets en cours</a></li>
+										<li><a href="https://mairiegranddakar.com/social_et_culture/autres_activites_sociales">Autres activités sociales</a></li>
+									</ul>
+								</li>
+
+								<li class="dropdown"><a href="#">Environnement</a>
+									<ul>
+										<li><a href="https://mairiegranddakar.com/environnement/gestions_des_dechets">Gestion des déchets</a></li>
+										<li><a href="https://mairiegranddakar.com/environnement/assainissement">Assainissement</a></li>
+										<li><a href="https://mairiegranddakar.com/environnement/espace_vert">Espaces verts</a></li>
+										<li><a href="https://mairiegranddakar.com/environnement/voirie_et_mobilite">Voierie et mobilité</a></li>
+										<li><a href="https://mairiegranddakar.com/environnement/eclairage_publique">Eclairage public</a></li>
+										<li><a href="https://mairiegranddakar.com/environnement/urbanisme_et_habitat">Urbanisme et habitat</a></li>
+                    <li><a href="https://mairiegranddakar.com/partenariat_et_projet/projet/environnement/projet-en-cours">Projets en cours</a></li>
+									</ul>
+								</li>
+								<li><a href="https://mairiegranddakar.com/mairie/galerie">Galerie</a></li>
+							 </ul>
 						</div>
 					</nav>
 					<!-- Main Menu End-->
