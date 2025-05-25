@@ -2,7 +2,9 @@
 function mairiegranddakar_enqueue_scripts() {
     // Enqueue styles
     wp_enqueue_style('bootstrap-css', 'https://mairiegranddakar.com/public/css/bootstrap.css', array(), null);
-    wp_enqueue_style('style-css', get_template_directory_uri() . '/style.css', array('bootstrap-css'), null);
+    wp_enqueue_style('fontawesome-css', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', array(), null);
+    wp_enqueue_style('flaticon-css', 'https://mairiegranddakar.com/public/css/flaticon.css', array(), null);
+    wp_enqueue_style('style-css', get_template_directory_uri() . '/style.css', array('bootstrap-css', 'fontawesome-css', 'flaticon-css'), null);
     wp_enqueue_style('custom-style-css', 'https://mairiegranddakar.com/public/css/style.css', array('style-css'), null);
     wp_enqueue_style('responsive-css', 'https://mairiegranddakar.com/public/css/responsive.css', array('custom-style-css'), null);
     wp_enqueue_style('color-switcher-css', 'https://mairiegranddakar.com/public/css/color-switcher-design.css', array('responsive-css'), null);
